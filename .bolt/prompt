@@ -1,0 +1,85 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.
+
+Use stock photos from unsplash where appropriate, only valid URLs you know exist. Do not download the images, only link to them in image tags.
+
+The `Database` interface defines two tables, `incidents` and `incident_media`, with their respective columns as follows:
+
+### Table: `incidents`
+- **Row (data fields):**
+  - `id`: string
+  - `type`: string
+  - `description`: string | null
+  - `location_lat`: number
+  - `location_lng`: number
+  - `location_zone`: string
+  - `timestamp`: string
+  - `severity`: string
+  - `verified`: boolean
+  - `still_here_count`: number
+  - `no_longer_here_count`: number
+  - `reporter_id`: string
+  - `anonymous`: boolean
+  - `created_at`: string
+  - `slug`: string
+
+- **Insert (fields for inserting data):**
+  - `id?`: string (optional)
+  - `type`: string
+  - `description?`: string | null (optional)
+  - `location_lat`: number
+  - `location_lng`: number
+  - `location_zone`: string
+  - `timestamp`: string
+  - `severity`: string
+  - `verified?`: boolean (optional)
+  - `still_here_count?`: number (optional)
+  - `no_longer_here_count?`: number (optional)
+  - `reporter_id`: string
+  - `anonymous`: boolean
+  - `created_at?`: string (optional)
+  - `slug?`: string (optional)
+
+- **Update (fields for updating data):**
+  - `id?`: string (optional)
+  - `type?`: string (optional)
+  - `description?`: string | null (optional)
+  - `location_lat?`: number (optional)
+  - `location_lng?`: number (optional)
+  - `location_zone?`: string (optional)
+  - `timestamp?`: string (optional)
+  - `severity?`: string (optional)
+  - `verified?`: boolean (optional)
+  - `still_here_count?`: number (optional)
+  - `no_longer_here_count?`: number (optional)
+  - `reporter_id?`: string (optional)
+  - `anonymous?`: boolean (optional)
+  - `created_at?`: string (optional)
+  - `slug?`: string (optional)
+
+### Table: `incident_media`
+- **Row (data fields):**
+  - `id`: string
+  - `incident_id`: string
+  - `type`: string
+  - `url`: string
+  - `created_at`: string
+
+- **Insert (fields for inserting data):**
+  - `id?`: string (optional)
+  - `incident_id`: string
+  - `type`: string
+  - `url`: string
+  - `created_at?`: string (optional)
+
+- **Update (fields for updating data):**
+  - `id?`: string (optional)
+  - `incident_id?`: string (optional)
+  - `type?`: string (optional)
+  - `url?`: string (optional)
+  - `created_at?`: string (optional)
+
+These tables define the schema for storing and managing `incidents` and their related `incident_media`, with appropriate fields for inserting and updating data.

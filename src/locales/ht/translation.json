@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "LakayAlert",
+    "version": "Vèsyon {{version}}"
+  },
+  "nav": {
+    "map": "Kat",
+    "list": "Lis",
+    "back": "Retounen nan Ensidan yo",
+    "showOnMap": "Montre sou Kat la"
+  },
+  "menu": {
+    "title": "Meni",
+    "about": "Konsènan LakayAlert",
+    "anonymousUser": "Rapò Anonim Aktive",
+    "privacy": {
+      "title": "Vi Prive an Premye",
+      "message": "Vi prive ou enpòtan. Tout rapò yo anonim pa defo, e nou pa janm pataje enfòmasyon pèsonèl ou."
+    },
+    "signOut": "Dekonekte"
+  },
+  "incident": {
+    "types": {
+      "GANG_ACTIVITY": "Aktivite Gang",
+      "SEXUAL_VIOLENCE": "Vyolans Seksyèl",
+      "CIVIL_UNREST": "Dezòd Sivil",
+      "KIDNAPPING": "Kidnaping",
+      "ROBBERY": "Vòl",
+      "NATURAL_DISASTER": "Dezas Natirèl",
+      "ROAD_CLOSURE": "Wout Fèmen"
+    },
+    "severity": {
+      "CRITICAL": "Kritik",
+      "HIGH": "Wo",
+      "MODERATE": "Modere",
+      "LOW": "Ba"
+    },
+    "empty": {
+      "message": "Pa gen ensidan ki rapòte ankò",
+      "reportButton": "Rapòte yon ensidan"
+    },
+    "report": {
+      "button": "Rapòte Ensidan",
+      "title": "Rapòte Nouvo Ensidan",
+      "type": {
+        "label": "Tip Ensidan",
+        "placeholder": "Chwazi tip ensidan"
+      },
+      "description": {
+        "label": "Deskripsyon",
+        "placeholder": "Bay detay sou ensidan an..."
+      },
+      "severity": {
+        "label": "Nivo Severite",
+        "placeholder": "Chwazi severite"
+      },
+      "location": {
+        "label": "Lokalizasyon",
+        "detecting": "Ap detekte lokalizasyon ou...",
+        "detected": "Lokalizasyon detekte: {{zone}}",
+        "error": "Pa ka detekte lokalizasyon",
+        "permission": "Tanpri aktive sèvis lokalizasyon"
+      },
+      "media": {
+        "label": "Fichye Medya",
+        "upload": "Telechaje fichye",
+        "types": "PNG, JPG, GIF, MP4 jiska 10MB",
+        "dragDrop": "Trennen epi lage fichye yo isit",
+        "remove": "Retire"
+      },
+      "alwaysAnonymous": "Rapò yo toujou anonim",
+      "submit": "Soumèt Rapò",
+      "submitting": "Ap soumèt...",
+      "success": "Ensidan Rapòte",
+      "successDetail": "Ensidan ou a te rapòte avèk siksè",
+      "error": "Erè nan Rapòte Ensidan",
+      "errorDetail": "Echèk pou rapòte ensidan. Tanpri eseye ankò."
+    },
+    "details": {
+      "title": "Detay Ensidan",
+      "mediaPreview": "Apèsi Medya",
+      "yourLocation": "Lokalizasyon ou",
+      "clickToView": "Klike pou wè detay yo"
+    },
+    "share": {
+      "success": "Lyen Kopye",
+      "copied": "Lyen ensidan kopye nan clipboard la",
+      "error": "Erè nan pataj ensidan an",
+      "tryAgain": "Tanpri eseye ankò"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Byenveni Ankò",
+      "submit": "Konekte",
+      "switchToSignup": "Nouvo nan LakayAlert? Kreye yon kont"
+    },
+    "signup": {
+      "title": "Kreye Kont",
+      "submit": "Kreye Kont",
+      "switchToLogin": "Ou gen yon kont deja? Konekte"
+    },
+    "email": "Imèl",
+    "password": "Modpas",
+    "or": "OUBYEN",
+    "continueWithGoogle": "Kontinye ak Google",
+    "loginToReport": "Konekte pou Rapòte Ensidan",
+    "menuPrompt": "Konekte pou rapòte ensidan epi swiv kontribisyon ou yo"
+  },
+  "language": {
+    "en": "English",
+    "ht": "Kreyòl",
+    "switch": "Chanje Lang",
+    "current": "Kouran: {{language}}"
+  }
+}

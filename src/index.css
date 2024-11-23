@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors;
+  }
+  
+  .btn-primary {
+    @apply bg-red-600 text-white hover:bg-red-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+}
+
+.leaflet-container {
+  z-index: 10;
+}
+
+.user-location-marker {
+  filter: hue-rotate(120deg); /* Make user location marker green */
+}
+
+.leaflet-control-zoom {
+  margin-left: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+.recenter-button {
+  margin-left: 16px !important;
+  margin-bottom: 8px !important;
+  padding-left: 4px !important;
+}

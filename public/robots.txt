@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Prevent access to auth pages
+Disallow: /auth/*
+
+# Prevent indexing of error pages
+Disallow: /404
+
+# Sitemap location
+Sitemap: https://voyeje.com/sitemap.xml

@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "LakayAlert",
+    "version": "Version {{version}}"
+  },
+  "nav": {
+    "map": "Map",
+    "list": "List",
+    "back": "Back to Incidents",
+    "showOnMap": "Show on Map"
+  },
+  "menu": {
+    "title": "Menu",
+    "about": "About LakayAlert",
+    "anonymousUser": "Anonymous Reporting Enabled",
+    "privacy": {
+      "title": "Privacy First",
+      "message": "Your privacy matters. All reports are anonymous by default, and we never share your personal information."
+    },
+    "signOut": "Sign Out"
+  },
+  "incident": {
+    "types": {
+      "GANG_ACTIVITY": "Gang Activity",
+      "SEXUAL_VIOLENCE": "Sexual Violence",
+      "CIVIL_UNREST": "Civil Unrest",
+      "KIDNAPPING": "Kidnapping",
+      "ROBBERY": "Robbery",
+      "NATURAL_DISASTER": "Natural Disaster",
+      "ROAD_CLOSURE": "Road Closure"
+    },
+    "severity": {
+      "CRITICAL": "Critical",
+      "HIGH": "High",
+      "MODERATE": "Moderate",
+      "LOW": "Low"
+    },
+    "empty": {
+      "message": "No incidents reported yet",
+      "reportButton": "Report an incident"
+    },
+    "report": {
+      "button": "Report Incident",
+      "title": "Report New Incident",
+      "type": {
+        "label": "Incident Type",
+        "placeholder": "Select incident type"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Provide details about the incident..."
+      },
+      "severity": {
+        "label": "Severity Level",
+        "placeholder": "Select severity"
+      },
+      "location": {
+        "label": "Location",
+        "detecting": "Detecting your location...",
+        "detected": "Location detected: {{zone}}",
+        "error": "Could not detect location",
+        "permission": "Please enable location services"
+      },
+      "media": {
+        "label": "Media Files",
+        "upload": "Upload files",
+        "types": "PNG, JPG, GIF, MP4 up to 10MB",
+        "dragDrop": "Drag and drop files here",
+        "remove": "Remove"
+      },
+      "alwaysAnonymous": "Reports are always anonymous",
+      "submit": "Submit Report",
+      "submitting": "Submitting...",
+      "success": "Incident Reported",
+      "successDetail": "Your incident has been successfully reported",
+      "error": "Error Reporting Incident",
+      "errorDetail": "Failed to report incident. Please try again."
+    },
+    "details": {
+      "title": "Incident Details",
+      "mediaPreview": "Media Preview",
+      "yourLocation": "Your Location",
+      "clickToView": "Click to view details"
+    },
+    "share": {
+      "success": "Link Copied",
+      "copied": "Incident link copied to clipboard",
+      "error": "Error sharing incident",
+      "tryAgain": "Please try again"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "submit": "Sign In",
+      "switchToSignup": "New to LakayAlert? Create an account"
+    },
+    "signup": {
+      "title": "Create Account",
+      "submit": "Sign Up",
+      "switchToLogin": "Already have an account? Sign in"
+    },
+    "email": "Email",
+    "password": "Password",
+    "or": "OR",
+    "continueWithGoogle": "Continue with Google",
+    "loginToReport": "Login to Report Incident",
+    "menuPrompt": "Sign in to report incidents and track your contributions"
+  },
+  "language": {
+    "en": "English",
+    "ht": "Kreyòl",
+    "switch": "Change Language",
+    "current": "Current: {{language}}"
+  }
+}
